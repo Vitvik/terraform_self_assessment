@@ -1,0 +1,10 @@
+cloudfront_distribution_arn = "arn:aws:cloudfront::638436445856:distribution/E3APW7A1D20Y1I"
+cloudfront_distribution_domain_name = "d2x7grkw4b3wa5.cloudfront.net"
+cloudfront_distribution_tags = tomap({
+  "Environment" = "Test"
+  "Terraform" = "true"
+})
+s3_bucket_arn = "arn:aws:s3:::vitvik-self-assessment"
+s3_bucket_bucket_domain_name = "vitvik-self-assessment.s3.amazonaws.com"
+s3_bucket_bucket_regional_domain_name = "vitvik-self-assessment.s3.eu-west-1.amazonaws.com"
+s3_bucket_id = "vitvik-self-assessment"
